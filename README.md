@@ -4,7 +4,8 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Homework - 12-Cloud-Security.png](Diagrams/Homework - 12-Cloud-Security.png)
+![Homework - 12-Cloud-Security.png](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/1192e5d0726d419ecbd0ea434084581a39f6bfeb/Diagrams/Homework%20-%2012-Cloud-Security.png
+)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
