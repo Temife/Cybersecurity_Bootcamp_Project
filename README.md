@@ -1,16 +1,16 @@
-# Cybersecurity_Bootcamp_Project
 # GT Boot Camp - Cybersecurity Bootcamp Project 1
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-![Homework - 12-Cloud-Security.png](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/1192e5d0726d419ecbd0ea434084581a39f6bfeb/Diagrams/Homework%20-%2012-Cloud-Security.png
-)
+![Cloud Topography](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/bb9091ed57661335c25ae6cb75529223a1c77ce1/Diagrams/cloud_environment_topography.png)
 
 These files have been tested Web Vm's configuration playbookThese files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
   - [filebeat-playbook.yml](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/6117bbd98f1f4d519f5166a3cca12a415756fe10/Ansible/filebeat-playbook.yml)
   - [metricbeat-playbook.yml](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/6117bbd98f1f4d519f5166a3cca12a415756fe10/Ansible/metricbeat-playbook.yml)
   - [elk server playbook](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/6117bbd98f1f4d519f5166a3cca12a415756fe10/Ansible/elk.yml)
+  - [filebeat-config.yml](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/bb9091ed57661335c25ae6cb75529223a1c77ce1/Ansible/filebeat-config.yml)
+  - [metricbeat-config.yml](https://github.com/Temife/Cybersecurity_Bootcamp_Project/blob/bb9091ed57661335c25ae6cb75529223a1c77ce1/Ansible/metricbeat-config.yml)
 
 This document contains the following details:
 - Description of the Topologu
@@ -48,7 +48,8 @@ The configuration details of each machine may be found below.
 | web-1    |Web server     | 10.0.0.5       | Linux            |
 | web-2    |Web server     | 10.0.0.6       | Linux            |     
 | web-3    |Web server     | 10.0.0.8       | Linux            |
-| LB       |Balance Load   | 40.121.208.184 | N/A
+| LB       |Balance Load   | 40.121.208.184 | N/A              |
+| Elk      |Elk-SIEM       | 40.122.224.80  |                  |
 
 ### Access Policies
 
